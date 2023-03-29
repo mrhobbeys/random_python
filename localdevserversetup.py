@@ -13,8 +13,8 @@ from fabric.contrib.files import sed
 # run the bootstrap process as root before it is locked down
 env.user = 'mrhobbeys'
 
-# the remote server's root password
-env.password = 'Gunt3r&Wisp3r'
+# the remote server's root password (I wonder how many people saw my password lol)
+env.password = 'N0tMyRealPassword!'
 
 # all IP address or hostnames of the servers you want to put
 # your SSH keys and authorized_host files on, ex: 192.168.1.1
